@@ -1,0 +1,399 @@
+@media (min-width: 992px) {
+    .section-1 {
+        height: 99vh;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .section-1 {
+        height: 97vh;
+    }
+    .main-header {
+        font-size: 30px;
+    }
+    .main-desc {
+        width: 95%;
+    }
+    .talk-button {
+        margin-top: 7%;
+    }
+    .middle-service {
+        margin: 3% 2% 3% 2%;
+    }
+    .height-img {
+        height: 100%;
+        /* width: 9%; */
+    }
+    .height-svg {
+        width: 60%;
+    }
+    .start-desc {
+        font-size: 26px;
+        text-align: center;
+    }
+    .services-steps {
+        top: -50px;
+    }
+    .talk-button {
+        margin-top: 4%;
+    }
+    .pulsed {
+        top: -5%;
+    }
+    .footer-text {
+        top: -3%;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+    .main-x {
+        font-size: 60px;
+    }
+    .main-header {
+        font-size: 26px;
+    }
+    .main-desc {
+        width: 100%;
+    }
+    .section-1 {
+        height: 119vh;
+    }
+    .middle-service {
+        margin: 3% 0% 3% 0%;
+    }
+    .talk-button {
+        margin-top: 7%;
+    }
+    .height-img {
+        height: auto;
+    }
+    .center-circle {
+        margin-top: 8%;
+        margin-bottom: 8%;
+    }
+    .start-desc {
+        text-align: center;
+    }
+    .services-steps {
+        top: -7%;
+    }
+    .talk-button {
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+    .pulsed {
+        top: -2%;
+    }
+    .footer-text {
+        top: 1%;
+    }
+    .svg-circle {
+        width: 60%;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+    .main-x {
+        font-size: 48px;
+    }
+    .main-header {
+        font-size: 22px;
+        font-weight: 400;
+    }
+    .main-desc {
+        width: 100%;
+    }
+    .talk-button {
+        padding: 5% 8% 5% 8%;
+    }
+    .section-1 {
+        height: 107vh;
+    }
+    .middle-service {
+        margin: 3% 0% 3% 0%;
+    }
+    .height-img {
+        height: auto;
+    }
+    .center-circle {
+        padding: 10% 0 10% 0;
+    }
+    .start-title {
+        text-align: center;
+    }
+    .start-desc {
+        text-align: center;
+        font-size: 24px;
+    }
+    .pricetag {
+        font-size: 7.8em;
+    }
+    .services-steps {
+        top: -5%;
+    }
+    .talk-button {
+        margin-bottom: 10%;
+    }
+    .pulsed {
+        top: 0%;
+        width: 25%;
+    }
+    .footer-text {
+        top: 2%;
+        text-align: center;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 400px) {
+    .main-x {
+        font-size: 36px;
+    }
+    .main-header {
+        font-size: 25px;
+        font-weight: 400;
+    }
+    .main-desc {
+        display: none;
+    }
+    .talk-button {
+        padding: 7% 10% 7% 10%;
+        margin-bottom: 20%;
+        margin-top: 10%;
+    }
+    .section-1 {
+        height: 115vh;
+    }
+    .middle-service {
+        margin: 3% 0% 3% 0%;
+    }
+    .height-img {
+        height: auto;
+    }
+    .center-circle {
+        padding: 10% 0 10% 0;
+    }
+    .start-title {
+        text-align: center;
+    }
+    .start-desc {
+        text-align: center;
+        font-size: 24px;
+    }
+    .pricetag {
+        font-size: 7.8em;
+    }
+    .services-steps {
+        top: -5%;
+    }
+    .pulsed {
+        top: 0%;
+        width: 25%;
+    }
+    .footer-text {
+        top: 2%;
+        text-align: center;
+    }
+}
+/*
+@media only screen and (min-width: 992px) {
+    .main-desc {
+    width: 80% !important;
+}
+    .talk-button {
+            padding: 15px 5% 15px 5% !important;
+    }
+    .services-steps {
+    top: -10% !important;
+}
+}
+
+@media only screen and  (min-width: 600px) {
+    .main-desc {
+        display: block !important;
+        width: 100%;
+    }
+    .main-header {
+        font-size: 25px !important;
+    }
+    .main-x {
+        font-size: 60px !important;
+    }
+    .talk-button {
+        margin-top: 5% !important;
+        margin-bottom: 15% !important;
+    }
+    .pulsed {
+        top: -16% !important;
+    }
+    .footer-text {
+        top: -12% !important;
+    }
+    .pricetag {
+        font-size: 7.8em !important;
+    }
+    .center-circle {
+        margin-top: 12% !important;
+        margin-bottom: 12% !important;
+    }
+    .service-style {
+        padding-top: 5% !important;
+    }
+    .services-steps {
+        top: -117px !important;
+    }
+    .navnav {
+        padding-bottom: 8% !important;
+    }
+}
+
+@media only screen and  (min-width: 500px) {
+    .services-steps {
+        position: relative;
+        top: -172px;
+    }
+}
+
+@media only screen and  (min-width: 295px) {
+    .main-x {
+        font-size: 36px;
+        color: rgba(0, 0, 0, 0.66);
+        font-style: normal;
+        -webkit-font-variant-ligatures: normal;
+        font-variant-ligatures: normal;
+        font-variant-caps: normal;
+        font-variant-numeric: normal;
+        font-weight: 200;
+        font-stretch: normal;
+        line-height: 140%;
+        font-family: "Roboto", sans-serif;
+        -webkit-box-flex: 0;
+        -ms-flex: none;
+        flex: none;
+        text-align: left;
+    }
+    .main-header {
+        font-style: normal;
+        -webkit-font-variant-ligatures: normal;
+        font-variant-ligatures: normal;
+        font-variant-caps: normal;
+        font-variant-numeric: normal;
+        font-weight: 300;
+        font-stretch: normal;
+        font-size: 19px;
+        line-height: 140%;
+        font-family: "Roboto", sans-serif;
+        color: rgba(0, 0, 0, 0.66);
+        -webkit-box-flex: 0;
+        -ms-flex: none;
+        flex: none;
+        text-align: center;
+    }
+    .main-desc {
+        display: none;
+    }
+    .talk-button {
+        cursor: pointer;
+        color: rgb(255, 255, 255) !important;
+        font-style: normal;
+        -webkit-font-variant-ligatures: normal;
+        font-variant-ligatures: normal;
+        font-variant-caps: normal;
+        font-variant-numeric: normal;
+        font-weight: 300;
+        font-stretch: normal;
+        font-size: 22px;
+        font-family: Roboto, sans-serif;
+        padding: 0px 10% 0 10%;
+        border-radius: 50px;
+        background-color: #00eab5;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-top: 15%;
+    }
+    .service-style {
+        border-radius: 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        text-align: -webkit-left;
+        background-color: rgb(250, 250, 250);
+        padding-top: 8%;
+        padding-bottom: 1%;
+        margin-bottom: 5%;
+    }
+    .middle-service {
+        margin: 0 0 5% 0;
+    }
+    .first-heading {
+        margin-bottom: 10%;
+        margin-top: -20%;
+    }
+    .start-desc {
+        color: #2b2e33;
+        font-style: normal;
+        -webkit-font-variant-ligatures: normal;
+        font-variant-ligatures: normal;
+        font-variant-caps: normal;
+        font-variant-numeric: normal;
+        font-weight: 300;
+        font-stretch: normal;
+        font-size: 19px;
+        line-height: 165%;
+        font-family: Roboto, sans-serif;
+        padding: 0 5% 0 5%;
+    }
+    .height-img {
+        height: 100%;
+    }
+    .height-row {
+        height: auto;
+    }
+    .pricing-top {
+        margin-top: 20%;
+    }
+    .start-title {
+        text-align: center;
+    }
+    .start-desc {
+        text-align: center;
+    }
+    .pricetag {
+        font-size: 5.8em;
+    }
+    .talk-button {
+        margin-bottom: 25%
+    }
+    .pulsed {
+        position: relative;
+        top: -10%;
+        width: 40%;
+    }
+    .footer-text {
+        color: rgba(0, 0, 0, 0.74);
+        font-style: normal;
+        -webkit-font-variant-ligatures: normal;
+        font-variant-ligatures: normal;
+        font-variant-caps: normal;
+        font-variant-numeric: normal;
+        font-weight: 400;
+        font-stretch: normal;
+        font-size: 22px;
+        font-family: Roboto, sans-serif;
+        padding: 0 5% 0 5%;
+        top: -5%;
+        position: relative;
+        text-align: center;
+    }
+    .navnav {
+        padding-bottom: 18% !important;
+    }
+}
+*/

@@ -62,16 +62,26 @@ function changeUsability() {
     }, 3000);
 }
 
-changeSecurity();
-changeUsability();
-
-$(document).scroll(function (e) {
-    var scrollTop = $(document).scrollTop();
-    if (scrollTop > 0) {
-        console.log(scrollTop);
-        $('.navbar').removeClass('navbar-static-top').addClass('navbar-fixed-top');
-    }
-    else {
-        $('.navbar').removeClass('navbar-fixed-top').addClass('navbar-static-top');
-    }
-});
+function explore(where) {
+    $('html, body').animate({
+        scrollTop: $("#" + where).offset().top
+    }, 1500);
+}
+$(document).ready($(function () {
+    $("#get-started").hover(function () {
+        $("#get-started").toggleClass("animated pulse infinite")
+    }, function () {
+        $("#get-started").toggleClass("animated pulse infinite")
+    });
+    $("#talk-button").hover(function () {
+        $("#talk-button").toggleClass("animated pulse infinite")
+    }, function () {
+        $("#talk-button").toggleClass("animated pulse infinite")
+    });
+    
+    $("#talk-button").click(function () {
+        userlike.userlikeStartChat(); 
+    });
+    changeSecurity();
+    changeUsability();
+}));

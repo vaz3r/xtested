@@ -4,31 +4,31 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE = edge">
-    <meta name="viewport" content="width = device-width, initial-scale = 1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>XTested | Mobile Application Security &amp; Usability Testing</title>
     <link rel="stylesheet" href="style.css">
     <link href="css.css" rel="stylesheet">
     <link href="animate.css" rel="stylesheet">
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+    <link href="responsive.css" rel="stylesheet">
     <link rel="stylesheet" href="bootstrap.min.css"> </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="container">
+        <nav class="navbar navbar-toggleable-md navbar-light">
+            <button style="border-color: white !important;" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span style="font-size: 1.5rem !important;" class="navbar-toggler-icon"></span> </button>
+            <a class="navbar-brand navnav"></a>
+            <div class="collapse navbar-collapse navbar-right" id="navbarSupportedContent">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="link-li link-li-active"> <a class="link_" onClick="explore('explore');">Solutions</a></li>
+                    <li class="link-li"> <a class="link_" onClick="explore('pricing');">Pricing</a> </li>
+                    <li class="link-li"> <a class="link_" href="#">Blog</a> </li>
+                    <li class="link-li"> <a class="link_" onClick="explore('mission');">Mission</a> </li>
+                    <li class="link-li"> <a class="link_" href="#">Let's Chat!</a> </li>
+                </ul>
+            </div>
+        </nav>
         <div class="bg-layer">
-            <nav class="navbar navbar-default navbar-toggleable-md navbar-light">
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-                <div class="container">
-                    <div class="logo-container" style="display: none;"><a class="logo-blue" href="#">xt</a></div>
-                    <div class="collapse navbar-collapse navbar-right" id="navbarTogglerDemo02">
-                        <ul class="nav navbar-nav ml-auto">
-                            <li class="link-li link-li-active"> <a class="link_" href="#">Solutions</a></li>
-                            <li class="link-li"> <a class="link_" href="#">Pricing</a> </li>
-                            <li class="link-li"> <a class="link_" href="#">Blog</a> </li>
-                            <li class="link-li"> <a class="link_" href="#">FAQ</a> </li>
-                            <li class="link-li"> <a class="link_" href="#">Support</a> </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
             <div class="container-fluid section-1 justify-content-center">
                 <div class="container">
                     <!--
@@ -38,7 +38,7 @@
                         <div class="col-12 col-sm-12 centered">
                             <h1 class="main-x" href="#">Xpertly Tested</h1>
                             <h1 class="main-header" href="#">Mobile Application Security &amp; Usability Testing</h1>
-                            <p class="main-desc">We provide entreprise-grade mobile applications security & usability testing for developers, startups, and entreprises.</p> <a class="check-solutions" href="#explore">Explore our Solutions</a> </div>
+                            <p class="main-desc">We provide entreprise-grade mobile applications security &amp; usability testing for developers, startups, and entreprises.</p> <a id="get-started" onClick="explore('explore');" style="font-weight: 400;" class="talk-button">GET STARTED</a> </div>
                     </div>
                 </div>
             </div>
@@ -52,7 +52,7 @@
                         <p class="services-title">Examine</p>
                         <p class="services-desc">Our Security &amp; Usability experts will fully examine your mobile apps with entreprise-grade accuracy</p>
                     </div>
-                    <div class="col-md-12 col-lg-3 bg-white service-style" style="margin: 0 2% 0 2%;">
+                    <div class="col-md-12 col-lg-3 bg-white service-style middle-service">
                         <p class="services-title">Fix &amp; Re-Test</p>
                         <p class="services-desc">Our Experts will validate that bugs &amp; flaws reported by us have been totally fixed by your team</p>
                     </div>
@@ -69,49 +69,45 @@
             <div class="article-container">
                 <div class="row bg-white">
                     <div class="hidden-lg-up col-md-12 col-lg-6 height-img" style="padding: 0;  justify-content: center;">
-                        <div class="svg-height animated pulse infinite"> <img src="security.svg" style="width: 90%;"> </div>
+                        <div class="svg-height animated pulse infinite"> <img src="security.svg" class="height-svg"> </div>
                     </div>
                     <div class="col-md-12 col-lg-6 bg-white">
-                        <div class="row" style="height: 100%;">
-                            <div class="col-md-12 col-lg-12" style="height: 400px;">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-12">
                                 <h1 class="h1-article-title">Mobile Application<br>Security Testing</h1>
-                                <p class="article-desc">The experts will assess the security of your mobile apps using white hat manual penetration testing methods to uncover the issues that can cost you time, money and reputation.</p> <a href="#" class="article-button">Get Started</a> <i style="float: right; margin-left: 15px; font-size: 1.5em; color: #2b2e33; float: left;" class="icon ion-android-arrow-forward"></i> </div>
-                            <div class="col-md-12 col-lg-12" style="height: 200px;">
-                                <div class="feature-container" id="security-f1"> 
-                                    <a class="feature-title">Manual Mobile Assessment</a>
+                                <p class="article-desc">The experts will assess the security of your mobile apps using white hat manual penetration testing methods to uncover the issues that can cost you time, money and reputation.</p> <a onClick="explore('pricing');" class="article-button">Get Started</a> <i style="float: right; margin-left: 15px; font-size: 1.5em; color: #2b2e33; float: left;" class="icon ion-android-arrow-forward"></i> </div>
+                            <div class="col-md-12 col-lg-12">
+                                <div class="feature-container" id="security-f1"> <a class="feature-title">Manual Mobile Assessment</a>
                                     <p class="feature-desc">White-box testing and a deep-dive penetration test into the mobile application. Source code analysis, including data flow analysis, and dynamic testing between the client and the server.</p>
                                 </div>
-                                <div class="feature-container feature-hidden" id="security-f2"> 
-                                    <a class="feature-title">Experts’ Reports</a>
+                                <div class="feature-container feature-hidden" id="security-f2"> <a class="feature-title">Experts’ Reports</a>
                                     <p class="feature-desc">Fully detailed insights about all the security flaws in order to address the issues screenshots, videos, comments etc...</p>
                                 </div>
-                                <div class="feature-container feature-hidden" id="security-f3"> 
-                                    <a class="feature-title">Entreprise-Grade Accuracy</a>
+                                <div class="feature-container feature-hidden" id="security-f3"> <a class="feature-title">Entreprise-Grade Accuracy</a>
                                     <p class="feature-desc">Confidently use our security experts’ services from meeting the standards to identifying hidden weak points.</p>
                                 </div>
-                                <div class="feature-container feature-hidden" id="security-f4"> 
-                                    <a class="feature-title">Secure &amp; Private Results</a>
+                                <div class="feature-container feature-hidden" id="security-f4"> <a class="feature-title">Secure &amp; Private Results</a>
                                     <p class="feature-desc">Your security testing results are immediately available as soon as they’re discovered.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="hidden-md-down col-md-12 col-lg-6 height-img" style="padding: 0;  justify-content: center;">
-                        <div class="svg-height animated pulse infinite"> <img src="security.svg" style="width: 90%;"> </div>
+                        <div class="svg-height animated pulse infinite"> <img src="security.svg" class="height-svg"> </div>
                     </div>
                 </div>
             </div>
             <div class="article-container jspace">
                 <div class="row bg-white">
                     <div class="hidden-lg-up col-md-12 col-lg-6 height-img" style="padding: 0;  justify-content: center;">
-                        <div class="svg-height animated pulse infinite"> <img src="usability.svg"> </div>
+                        <div class="svg-height animated pulse infinite"> <img src="usability.svg" class="height-svg"> </div>
                     </div>
                     <div class="col-md-12 col-lg-6 bg-white">
-                        <div class="row" style="height: 100%;">
-                            <div class="col-md-12 col-lg-12" style="height: 400px;">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-12">
                                 <h1 class="h1-article-title">Mobile Application<br>Usability Testing</h1>
-                                <p class="article-desc">Usability testers can look at your product from a fresh and unbiased perspective, just like a typical user would, and help reveal potential problems from a potential customer's point of view.</p> <a href="#" class="article-button">Get Started</a> <i style="float: right; margin-left: 15px; font-size: 1.5em; color: #2b2e33; float: left;" class="icon ion-android-arrow-forward"></i> </div>
-                            <div class="col-md-12 col-lg-12" style="height: 200px;">
+                                <p class="article-desc">Usability testers can look at your product from a fresh and unbiased perspective, just like a typical user would, and help reveal potential problems from a potential customer's point of view.</p> <a onClick="explore('pricing');" class="article-button">Get Started</a> <i style="float: right; margin-left: 15px; font-size: 1.5em; color: #2b2e33; float: left;" class="icon ion-android-arrow-forward"></i> </div>
+                            <div class="col-md-12 col-lg-12">
                                 <div class="feature-container" id="usability-f1"> <a class="feature-title">Expert-led Usability Testing</a>
                                     <p class="feature-desc">Industry-proven UX experts from XTested will test, evaluate and report your mobile apps based on real-world usability and assess your usability potential.</p>
                                 </div>
@@ -128,13 +124,13 @@
                         </div>
                     </div>
                     <div class="hidden-md-down col-md-12 col-lg-6 height-img" style="padding: 0;  justify-content: center;">
-                        <div class="svg-height animated pulse infinite"> <img src="usability.svg"> </div>
+                        <div class="svg-height animated pulse infinite"> <img src="usability.svg" class="height-svg"> </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container-fluid section-3">
+    <div id="mission" class="container-fluid section-3">
         <div class="container">
             <div class="row">
                 <div class="our-mission">
@@ -212,7 +208,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xs-12 col-md-4">
+                        <div class="col-xs-12 col-md-4 center-circle">
                             <div class="col-12" style="justify-content: center;
     display: flex;">
                                 <div class="svg-circle">
@@ -345,27 +341,51 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid section-4">
+    <div id="pricing" class="container-fluid section-4">
         <div class="container">
             <div class="row">
                 <div class="pricing-top">
                     <p class="start-title">JOIN THE WHITE SIDE, GET STARTED WITH US</p>
                     <p class="start-desc">Put your mobile app under our microscope starting at</p> <a class="pricetag animated pulse infinite">$99</a>
                     <p class="start-title">We will provide full refund if the app contains no vulnerabilities.</p>
-                    <p class="start-desc">We'd love to work with you, talk to us.</p>
-                    <a id="talk-button" class="talk-button">Talk to an Expert</a>
+                    <p class="start-desc">We'd love to work with you, talk to us.</p> <a id="talk-button" class="talk-button">Chat with us!</a> </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer" class="container-fluid section-5">
+        <div class="container">
+            <div class="row">
+                <div class="pricing-top footer">
+                    <div class="services-steps">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                            <div class="col-md-12 col-lg-3 bg-white service-style">
+                                <p class="services-title">Chat with us!</p>
+                                <p class="services-desc">Have a nice chat with our Security &amp; Usability Experts about your current or future project and get a quote.</p>
+                            </div>
+                            <div class="col-md-12 col-lg-3 bg-white service-style middle-service">
+                                <p class="services-title">Pay &amp; Enroll</p>
+                                <p class="services-desc">Our Team of Experts will start working on your app as soon as you make a deposit.</p>
+                            </div>
+                            <div class="col-md-12 col-lg-3 bg-white service-style">
+                                <p class="services-title">Get Results</p>
+                                <p class="services-desc">You'll start receiving realtime reports on vulnerabilities &amp; issues as our team scan your app</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="svg-height animated pulse infinite pulsed"> <img src="security.svg" style="width: 100%;"> </div>
+                    <p class="footer-text">© 2017 <b>XTESTED</b> ALL RIGHTS RESERVED</p>
                 </div>
             </div>
         </div>
     </div>
     </div>
 </body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script src="bootstrap.min.js"></script>
 <script src="core.js"></script>
 <script async type="text/javascript" src="//userlike-cdn-widgets.s3-eu-west-1.amazonaws.com/3e5757c9bb1200457d2072de605517185331c5ceb0ff8741b5cea44be37f9fc8.js"></script>
-
-
 
 </html>
