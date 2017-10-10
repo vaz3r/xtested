@@ -82,6 +82,9 @@ $(document).ready($(function () {
     $("#talk-button").click(function () {
         userlike.userlikeStartChat(); 
     });
+    $("#lets-chat").click(function () {
+        userlike.userlikeStartChat(); 
+    });
     changeSecurity();
     changeUsability();
 }));
